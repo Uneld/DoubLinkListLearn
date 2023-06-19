@@ -212,7 +212,7 @@ public class Main {
         while ((res = lst.PopBack()) >= 0) {
             revertList2.PushBack(res);
         }
-        System.out.println("Реверс спискак через push pop");
+        System.out.println("Реверс списка через push pop");
         revertList2.ShowFront();
     }
 }
